@@ -1,0 +1,37 @@
+.filters-section{
+	display: flex;
+	flex-flow: column nowrap;
+	flex: 0 0 200px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-right: 2px solid rgb(80, 47, 134);
+    &__title {
+	    font-family: sans-serif;
+	    font-size: 16px;
+	    color: rgb(132, 119, 165);
+	    margin-bottom: 10px;
+	    font-weight: 600;
+	}
+}
+.filters-block{
+	margin-bottom: 10px;
+	&__title{
+		font-family: sans-serif;
+	    font-size: 15px;
+	    color: rgb(131, 117, 166);
+	    margin-bottom: 10px;
+	    font-weight: 600;
+	}
+	&__list{
+		overflow: hidden;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	&__item{
+		font-family: sans-serif;
+	    font-size: 15px;
+	    color: rgb(131, 117, 166);
+	    padding-left: 10px;
+	    margin-bottom: 8px;
+	}
+}

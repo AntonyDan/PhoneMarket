@@ -1,0 +1,34 @@
+.search{
+	width: 100%;
+	margin: 25px 0px;
+	&__container{
+		width: 100%;
+		max-width: 1155px;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+	&__input{
+		float: left;
+		height: 30px;
+		width: 400px;
+		box-sizing: border-box;
+		border: 2px solid rgb(200, 200, 210);
+		font-size: 20px;
+		color: rgb(200, 200, 210);
+		text-indent: 10px;
+	}
+	&__Button, &__Button:hover, &__Button:active, &__Button:link, &__Button:visited{
+		display: block;
+		width: 50px;
+		float: left;
+		height: 30px;
+		box-sizing: border-box;
+		border: 2px solid rgb(200, 200, 210);
+		border-left: none;
+		color: black;
+		background-color: rgb(152, 135, 190);
+		padding: 4px 13px;
+		font-size: 16px;
+	}
+	
+}

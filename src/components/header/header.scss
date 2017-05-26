@@ -1,0 +1,21 @@
+.header{
+    width:100%;
+    background-color: rgb(72, 37, 129);
+    margin-bottom: 10px;
+    &__logo{
+    	margin-top: 6px;
+    }
+}
+.container-header{
+	display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 51px;
+}
+.logo{
+	width:225px;
+	height:25px;
+	background: url(logo.png) no-repeat;
+	background-size: contain;
+}

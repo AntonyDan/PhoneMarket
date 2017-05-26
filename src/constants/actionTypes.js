@@ -1,0 +1,6 @@
+export const SET_FILTERS = 'SET_FILTERS';
+export const ADD_TO_CHECKED_FILTERS = 'ADD_TO_CHECKED_FILTERS';
+export const SET_PHONES = 'SET_PHONES';
+export const SET_CART_ITEM = 'SET_CART_ITEM';
+export const DELETE_CART_ITEM = 'DELETE_CART_ITEM';
+export const RUN_SEARCH = 'RUN_SEARCH';
